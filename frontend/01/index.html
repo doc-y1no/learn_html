@@ -1,0 +1,410 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>メニュー</h1>
+
+  <ul>
+  <li><a href="index.html">トップページ</a></li>
+  <li><a href="contents1.html">コンテンツ1</a></li>
+  <li><a href="contents2.html">コンテンツ2</a></li>
+  <li><a href="contents3.html">コンテンツ3</a></li>
+  </ul>
+
+  <p><a href="contents1.html">コンテンツのトップへ</a></p>
+
+<noframes>
+<p><a href="index.html">メニューへ</a></p>
+</noframes>
+<p><iframe src="iexample_a.html" width="200" height="100">代替内容</iframe></p>
+
+<p><iframe src="iexample_b.html" width="100%" height="100">代替内容</iframe></p>
+<p>
+  指定なし<br>
+  <iframe src="iexample_e.html" width="250" height="100">代替内容</iframe>
+  </p>
+
+  <p>
+  上下左右に30ピクセルのマージンを指定した例<br>
+  <iframe src="iexample_e.html" width="250" height="100" marginwidth="30" marginheight="30">代替内容</iframe>
+  </p>
+
+  <p>
+  上下左右のマージンに0を指定した例<br>
+  <iframe src="iexample_e.html" width="250" height="100" marginwidth="0" marginheight="0">代替内容</iframe>
+  </p>
+
+  <p style="width: 50%; border: 1px #808080 solid;">
+    英文は単語の区切りで改行が ...
+    </p>
+
+    <p align="justify" style="width: 50%; border: 1px #808080 solid;">
+    英文は単語の区切りで改行が ...
+    </p>
+
+
+
+    <p>この要素を使用すると、自動的な折り返しが される、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、</p>
+
+    <p><nobr>この要素を使用すると、自動的な折り返しが されない、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、</nobr></p>
+
+
+
+    <p>これは標準のサイズ</p>
+    <p><font size="5">このサイズは5</font></p>
+    <p><font size="-1">このサイズは標準から-1</font></p>
+    <p><font color="#0000ff">文字を青くしてみます</font></p>
+    <p><font size="7" color="#00ff00">サイズが7で緑色</font></p>
+    <p>これは標準のフォント</p>
+    <p><font face="ＭＳ Ｐ明朝,ＭＳ 明朝">これは明朝体を指定</font></p>
+    <p><font face="ＭＳ Ｐゴシック,ＭＳ ゴシック">これはゴシック体を指定</font></p>
+    <p><font face="Impact">TAG index Web Site</font></p>
+    <p><font size="6" color="#ff0000" face="ＭＳ Ｐ明朝,ＭＳ 明朝">明朝体でサイズと色を指定</font></p>
+    <p><s>s要素の内容</s>と<strike>strike要素の内容</strike>には、同じように取り消し線が引かれます。</p>
+    <p>
+      標準フォントと等幅フォントの違いを見てみます。<br>
+      <tt>標準フォントと等幅フォントの違いを見てみます。</tt>
+      </p>
+
+      <p>
+      TAG index Web Site<br>
+      <tt>TAG index Web Site</tt>
+      </p>
+      <ruby><rb>亜米利加</rb><rp>（</rp><rt>アメリカ</rt><rp>）</rp></ruby>
+      <p><em>強調を示します</em></p>
+
+
+      <p><strong>より強い強調を示します</strong></p>
+      <p><del cite="http://www.example.com/" datetime="2008-08-10T00:00:00+09:00">削除された部分を示します</del></p>
+      <p><abbr title="World Wide Web">WWW</abbr></p>
+      <p>3<sup>2</sup> + 4<sup>2</sup> = 25</p>
+
+      <p>H<sub>2</sub>O</p>
+      <p><cite>TAG index</cite>では以下のように説明されていました。</p>
+
+      <blockquote>
+      <p>ブロックレベル要素 … 文書の骨組みとなる要素です(例えば見出しや段落など)。このタイプの要素は横幅いっぱいの領域を持つので、要素の前後には自動的に改行が入ることになります。</p>
+      <p>インライン要素 … 文章中の一部として扱われる要素です(例えばリンクや文字の強調など)。このタイプの要素は行の一部として扱われるので、要素の前後には改行は入りません。</p>
+      </blockquote>
+
+      <p>引用を終了します。</p>
+
+      <p><cite>TAG index</cite>には、<q>短い文章を引用する際に使用します</q>と書かれていました。</p>
+
+      <p><cite>TAG index</cite>には、<q lang="en">When short sentences were quoted, use it</q>と書かれていました。</p>
+
+      <p>script要素の中に、<code>document.write("サンプルテキスト");</code>と記述しています。</p>
+
+      <pre>
+      <code>&lt;script type="text/javascript"&gt;
+
+              document.write("サンプルテキスト");
+
+      &lt;/script&gt;</code>
+      </pre>
+      <p>入力欄に<kbd>guest</kbd>と入力し、「ログイン」ボタンを押してください。</p>
+      <p><blink>点滅します</blink></p>
+      <marquee>文字がスクロールします</marquee>
+
+      <marquee><img src="f1.gif" alt="F1"></marquee>
+      リストに階層を持たせたい場合は、次のようにli要素の中に別のul要素を配置します。
+
+      <ul>
+      <li>リスト項目A</li>
+      <li>リスト項目B
+
+      <ul>
+      <li>リスト項目B-A</li>
+      <li>リスト項目B-B</li>
+      <li>リスト項目B-C</li>
+      </ul>
+
+      </li>
+      <li>リスト項目C</li>
+      </ul>
+      次のように、ol要素（順序付きのリスト）を入れ子にすることもできます。
+
+      <ul>
+      <li>リスト項目A</li>
+      <li>リスト項目B
+
+      <ol>
+      <li>リスト項目B-1</li>
+      <li>リスト項目B-2</li>
+      <li>リスト項目B-3</li>
+      </ol>
+
+      </li>
+      <li>リスト項目C</li>
+      </ul>
+      <ul type="circle">
+        <li>リスト項目A</li>
+        <li>リスト項目B</li>
+        <li>リスト項目C</li>
+        </ul>
+
+  <ul>
+  <li type="disc">リスト項目A</li>
+  <li type="circle">リスト項目B</li>
+  <li type="square">リスト項目C</li>
+  </ul>
+  <ol type="A">
+    <li>リスト項目1</li>
+    <li>リスト項目2</li>
+    <li>リスト項目3</li>
+    </ol>
+    <ol>
+      <li type="1">リスト項目1</li>
+      <li type="A">リスト項目2</li>
+      <li type="a">リスト項目3</li>
+      <li type="I">リスト項目4</li>
+      <li type="i">リスト項目5</li>
+      </ol>
+      <ol start="5">
+        <li>リスト項目1</li>
+        <li>リスト項目2</li>
+        <li>リスト項目3</li>
+        </ol>
+
+        <ol type="A">
+          <li>リスト項目1</li>
+          <li>リスト項目2</li>
+          <li value="7">リスト項目3</li>
+          <li>リスト項目4</li>
+          <li>リスト項目5</li>
+          </ol>
+          <dl>
+            <dt>猫</dt>
+            <dd>昼間は寝ていることが多い</dd>
+            <dd>夜も寝ていることが多い</dd>
+            </dl>
+            <dl>
+              <dt>猫</dt>
+              <dt>犬</dt>
+              <ol type="A">
+                <li>リスト項目1</li>
+                <li>リスト項目2</li>
+                <li value="7">リスト項目3</li>
+                <li>リスト項目4</li>
+                <li>リスト項目5</li>
+                </ol>
+              <dd>ペットとして飼われることが多い動物</dd>
+              </dl>
+              <dl>
+                <dt>編集者</dt>
+                <dd>山田太郎</dd>
+                <dd>鈴木花子</dd>
+                </dl>
+
+                <dl>
+                <dt>著作者</dt>
+                <dt>編集者</dt>
+                <dd>山田太郎</dd>
+                </dl>
+
+                <dl>
+                <dt>著作者</dt>
+                <dt>編集者</dt>
+                <dd>山田太郎</dd>
+                <dd>鈴木花子</dd>
+                </dl>
+                table要素で、表を作成することができます。
+
+                表内の行とセルは、table要素内に配置するtr要素とtd要素（th要素）で示します。
+
+
+                <table>
+                  <tr>
+                  <th>見出しセル</th>
+                  </tr>
+                  <tr>
+                  <td>データセル</td>
+                  </tr>
+                  </table>
+
+                <p>borderを指定しないと、テーブルにならないっぽい</p>
+
+                <table border="3">
+                  <caption align="bottom">表のタイトル</caption>
+                  <tr>
+                  <td>データ1</td>
+                  <td>データ2</td>
+                  <td>データ3</td>
+                  </tr>
+                  </table>
+
+
+
+</body>
+</noframes>
+
+</frameset>
+<h1>ITRA株式会社</h1>
+<div id="box1"></div>
+<div id="box2"></div>
+  <span id="text1">ITRA株式会社</div>
+  <span id="text2">ITRA</div>
+  <span id="text1">ITRA株式会社</span>
+  <p>インライン要素の上下のpaddingは</p>
+  <span>この</span><span id="text1">ITRA株式会社</span><span>ように</span>
+  <p>他の要素に被ってしまいます</p>
+  <div>div</div>
+  <span>span</span>
+  div、spanには意味はないが、それぞれのタグに役割がある
+  パラグラフ （段落のこと） Qiitaにたくさん使われている
+  <p>p</p>
+  見出し headerという意味
+  <h1>h1</h1>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  h3くらいまでが良く使われる
+  <h4>h4</h4>
+  <h5>h5</h5>
+  <h6>h6</h6>
+  urlの次の>のあとに文字を入力してリンクがでる
+  <a href="https://www.apple.com/jp/">apple</a>
+  srcソース 画像のurl
+  <img src="	https://wonderful-wife.net/w_code/img/sc6-img-1.png" alt="画像">
+</html>
+
+<a href="example_t01d.html" target="_self">現在のフレームに表示します</a>
+<a href="example_t02d.html" target="_top">ウィンドウ全体に表示します</a>
+<address>
+  山田 太郎<br>
+  <a href="mailto:taro&#64;example.com">taro&#64;example.com</a>
+  </address>
+
+
+
+  <form method="post" action="example.cgi">
+
+    <p>お名前：<input type="text" name="name"></p>
+    <p>メールアドレス：<input type="text" name="email"></p>
+    <p><input type="submit" value="送信する"></p>
+
+    </form>
+
+    POST形式で formmail.cgi というCGIに送信する場合
+
+<form method="post" action="formmail.cgi">
+
+<p>お名前：<br>
+<input type="text" name="name" size="30"></p>
+
+<p>メッセージ：<br>
+<textarea name="message" cols="30" rows="5"></textarea></p>
+
+<p><input type="submit" value="送信する"></p>
+
+</form>
+フォーム内にファイルの送信欄を配置した例
+
+<form method="post" action="example.cgi" enctype="multipart/form-data">
+
+<p>お名前：<br>
+<input type="text" name="name" size="30"></p>
+
+<p>ファイル：<br>
+<input type="file" name="upfile" size="30"></p>
+
+<p><input type="submit" value="送信する"></p>
+
+</form>
+識別名を使用して関連付けた例
+
+<form method="post" action="formmail.cgi">
+
+<table border="3" cellpadding="3">
+<tr>
+<td><label for="name1">お名前</label></td>
+<td><input type="text" name="namae" size="20" id="name1"></td>
+</tr>
+<tr>
+<td>回答</td>
+<td><input type="radio" name="answer" value="はい" id="ans1a"> <label for="ans1a">はい</label>
+<input type="radio" name="answer" value="いいえ" id="ans1b"> <label for="ans1b">いいえ</label>
+</td>
+</tr>
+<tr>
+<td colspan="2"><label for="msg1">メッセージ</label></td>
+</tr>
+<tr>
+<td colspan="2"><textarea name="message" cols="30" rows="5" id="msg1"></textarea></td>
+</tr>
+</table>
+
+</form>
+
+
+<form method="post" action="example.cgi">
+
+  <fieldset>
+  <legend>申込者</legend>
+  <p>お名前：<input type="text" name="name1" size="30"></p>
+  <p>ご住所：<input type="text" name="address1" size="30"></p>
+  </fieldset>
+
+  <fieldset>
+  <legend>お届け先</legend>
+  <p>お名前：<input type="text" name="name2" size="30"></p>
+  <p>ご住所：<input type="text" name="address2" size="30"></p>
+  </fieldset>
+
+  <p><input type="submit" value="送信する"></p>
+
+  </form>
+  <form method="post" action="example.cgi" enctype="multipart/form-data">
+
+    <p>デフォルト<br>
+    <input type="file" name="example1"></p>
+
+    <p>幅を指定<br>
+    <input type="file" name="example2" size="30"></p>
+
+    <p>部品を無効化する<br>
+    <input type="file" name="example3" size="30" disabled></p>
+
+    <p><input type="submit" value="送信する"></p>
+
+    </form>
+
+
+    <p class="lead-form">ご予約はこちらから！</p>
+
+<form>
+
+  <div class="item">
+    <label class="label">お名前</label>
+    <input class="inputs" type="text" name="name">
+  </div>
+
+  <div class="item">
+    <label class="label">メールアドレス</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="item">
+    <p class="label">予約メニュー</p>
+    <div class="inputs">
+    <input id="cut" type="radio" name="menu" value="cut"><label for="cut">カット</label>
+    <input id="cut-color" type="radio" name="menu" value="cut-color"><label for="cut-color">カット+カラー</label>
+    <input id="headspa" type="radio" name="menu" value="headspa"><label for="headspa">ヘッドスパ</label>
+    </div>
+  </div>
+
+  <div class="item">
+    <label class="label">ご意見</label>
+    <textarea class="inputs"></textarea>
+  </div>
+
+  <div class="btn-area">
+    <input type="submit" value="予約する"><input type="reset" value="リセット">
+  </div>
+
+</form>
